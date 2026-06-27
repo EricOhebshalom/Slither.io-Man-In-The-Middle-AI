@@ -21,7 +21,7 @@ An autonomous AI bot for [slither.io](http://slither.io), built using Python and
 
 - `slither_capture.py`: The core `mitmproxy` addon containing the autonomous AI logic, distance calculations, and grid-mapping engines.
 - `slither_engine.js`: The modified local copy of the game's core engine, injected into the browser at runtime.
-- `telemetry_injection.patch`: The patch file to be put on the original slither.io source code to create `slither_engine.js`
+- `injection.patch`: The patch file to be put on the original slither.io source code to create `slither_engine.js`
 - `highscore.txt`: Local persistence for tracking the bot's highest achieved score.
 
 ## How it Works
